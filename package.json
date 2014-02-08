@@ -1,0 +1,8 @@
+{
+  "name": "grunt-synchronizer",
+  "version": "0.1.0",
+  "description": "",
+  "dependencies": {
+    "synchronizer": "~0.1.0"
+  }
+}
