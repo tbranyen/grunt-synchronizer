@@ -4,9 +4,7 @@ module.exports = function(grunt) {
   var synchronizer = require("synchronizer");
 
   grunt.registerMultiTask("synchronizer", "Optimize AMD to UMD", function() {
-    var options = this.options({
-      name: "__MODULES__"
-    });
+    var options = this.options();
 
     // Optimize the AMD modules.
     var contents = synchronizer.optimize(this.files[0].src[0], options);
