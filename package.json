@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "description": "",
   "dependencies": {
-    "synchronizer": "git://github.com/tbranyen/synchronizer#f2ba41fa2ba6dc63d844a4a54184280eb1c1b09f"
+    "synchronizer": "tbranyen/synchronizer"
   }
 }
